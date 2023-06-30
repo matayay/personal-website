@@ -8,7 +8,7 @@
 	<header
 		class="flex h-20 items-center justify-around bg-gradient-to-t from-[rgba(255,255,255,0.05)]"
 	>
-		<nav class="flex items-center justify-center gap-16">
+		<nav class="flex items-center justify-center gap-10">
 			<h3 class="cursor-pointer text-white">Home</h3>
 			<h3 class="cursor-pointer text-white">About</h3>
 			<h3 class="cursor-pointer text-white">Experience</h3>
@@ -16,7 +16,7 @@
 			<h3 class="cursor-pointer text-white">Skills</h3>
 		</nav>
 
-		<nav class="flex items-center justify-center gap-16">
+		<nav class="flex items-center justify-center gap-8">
 			<GitHub />
 			<Linkedin />
 			<Instagram />
