@@ -11,68 +11,17 @@
 		y="0px"
 		width="48"
 		height="48"
-		viewBox="0,0,256,256"
-		style="fill:#000000;"
+		viewBox="0 0 48 48"
 	>
-		<defs
-			><radialGradient
-				cx="19.38"
-				cy="42.035"
-				r="44.899"
-				gradientUnits="userSpaceOnUse"
-				id="color-1_Xy10Jcu1L2Su_gr1"
-				><stop offset="0" stop-color="#ffdd55" /><stop offset="0.328" stop-color="#ff543f" /><stop
-					offset="0.348"
-					stop-color="#fc5245"
-				/><stop offset="0.504" stop-color="#e64771" /><stop
-					offset="0.643"
-					stop-color="#d53e91"
-				/><stop offset="0.761" stop-color="#cc39a4" /><stop
-					offset="0.841"
-					stop-color="#c837ab"
-				/></radialGradient
-			><radialGradient
-				cx="11.786"
-				cy="5.5403"
-				r="29.813"
-				gradientUnits="userSpaceOnUse"
-				id="color-2_Xy10Jcu1L2Su_gr2"
-				><stop offset="0" stop-color="#4168c9" /><stop
-					offset="0.999"
-					stop-color="#4168c9"
-					stop-opacity="0"
-				/></radialGradient
-			></defs
-		><g
-			fill="none"
-			fill-rule="nonzero"
-			stroke="none"
-			stroke-width="1"
-			stroke-linecap="butt"
-			stroke-linejoin="miter"
-			stroke-miterlimit="10"
-			stroke-dasharray=""
-			stroke-dashoffset="0"
-			font-family="none"
-			font-weight="none"
-			font-size="none"
-			text-anchor="none"
-			style="mix-blend-mode: normal"
-			><g transform="scale(5.33333,5.33333)"
-				><path
-					d="M34.017,41.99l-20,0.019c-4.4,0.004 -8.003,-3.592 -8.008,-7.992l-0.019,-20c-0.004,-4.4 3.592,-8.003 7.992,-8.008l20,-0.019c4.4,-0.004 8.003,3.592 8.008,7.992l0.019,20c0.005,4.401 -3.592,8.004 -7.992,8.008z"
-					fill="url(#color-1_Xy10Jcu1L2Su_gr1)"
-				/><path
-					d="M34.017,41.99l-20,0.019c-4.4,0.004 -8.003,-3.592 -8.008,-7.992l-0.019,-20c-0.004,-4.4 3.592,-8.003 7.992,-8.008l20,-0.019c4.4,-0.004 8.003,3.592 8.008,7.992l0.019,20c0.005,4.401 -3.592,8.004 -7.992,8.008z"
-					fill="url(#color-2_Xy10Jcu1L2Su_gr2)"
-				/><path
-					d="M24,31c-3.859,0 -7,-3.14 -7,-7c0,-3.86 3.141,-7 7,-7c3.859,0 7,3.14 7,7c0,3.86 -3.141,7 -7,7zM24,19c-2.757,0 -5,2.243 -5,5c0,2.757 2.243,5 5,5c2.757,0 5,-2.243 5,-5c0,-2.757 -2.243,-5 -5,-5z"
-					fill="#ffffff"
-				/><circle cx="31.5" cy="16.5" r="1.5" fill="#ffffff" /><path
-					d="M30,37h-12c-3.859,0 -7,-3.14 -7,-7v-12c0,-3.86 3.141,-7 7,-7h12c3.859,0 7,3.14 7,7v12c0,3.86 -3.141,7 -7,7zM18,13c-2.757,0 -5,2.243 -5,5v12c0,2.757 2.243,5 5,5h12c2.757,0 5,-2.243 5,-5v-12c0,-2.757 -2.243,-5 -5,-5z"
-					fill="#ffffff"
-				/></g
-			></g
-		>
+		<path
+			fill="#f55376"
+			d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20 c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20 C42.014,38.383,38.417,41.986,34.017,41.99z"
+		/><path
+			fill="#fac8d5"
+			d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5 s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"
+		/><circle cx="31.5" cy="16.5" r="1.5" fill="#fac8d5" /><path
+			fill="#fac8d5"
+			d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12 C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18 z"
+		/>
 	</svg>
 </button>
