@@ -3,7 +3,6 @@
 	import Linkedin from './Linkedin.svelte';
 	import Instagram from './Instagram.svelte';
 	import SideBar from './SideBar.svelte';
-
 	let showSidebar = false;
 </script>
 
@@ -36,5 +35,3 @@
 	</header>
 	<SideBar bind:showSidebar />
 </div>
-
-<!-- from-[rgba(0,26,73,0.99)] -->
