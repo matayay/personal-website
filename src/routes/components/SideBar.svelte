@@ -18,11 +18,11 @@
 	</div>
 	<div class="flex flex-col items-center justify-center gap-8">
 		<nav class="flex flex-col items-end justify-center gap-8">
-			<button class="w-40 rounded-xl bg-amber-100 py-2 text-center text-black">Home</button>
 			<button class="w-40 rounded-xl bg-amber-100 py-2 text-center text-black">About</button>
 			<button class="w-40 rounded-xl bg-amber-100 py-2 text-center text-black">Experience</button>
 			<button class="w-40 rounded-xl bg-amber-100 py-2 text-center text-black">Projects</button>
 			<button class="w-40 rounded-xl bg-amber-100 py-2 text-center text-black">Skills</button>
+			<button class="w-40 rounded-xl bg-amber-100 py-2 text-center text-black">Contact</button>
 		</nav>
 		<nav class="flex items-center justify-center gap-4">
 			<GitHub />

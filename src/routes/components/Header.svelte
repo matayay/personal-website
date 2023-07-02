@@ -21,11 +21,11 @@
 		>
 			<div class="hidden min-w-full items-center justify-around sm:flex">
 				<nav class="flex items-center justify-center gap-4 lg:gap-10">
-					<button class="cursor-pointer text-white">Home</button>
 					<button class="cursor-pointer text-white">About</button>
 					<button class="cursor-pointer text-white">Experience</button>
 					<button class="cursor-pointer text-white">Projects</button>
 					<button class="cursor-pointer text-white">Skills</button>
+					<button class="cursor-pointer text-white">Contact</button>
 				</nav>
 
 				<nav class="flex items-center justify-center gap-2 lg:gap-8">
