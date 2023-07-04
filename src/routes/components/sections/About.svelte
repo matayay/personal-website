@@ -9,7 +9,7 @@
 	});
 </script>
 
-<div class="h-screen" id="about">
+<section class="min-h-screen" id="about">
 	<div
 		class="flex h-3/4 w-full flex-col items-center justify-center gap-6 sm:flex-row sm:justify-evenly sm:gap-0"
 	>
@@ -59,4 +59,4 @@
 			</div>
 		{/if}
 	</div>
-</div>
+</section>
