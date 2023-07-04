@@ -14,12 +14,6 @@
 		transition = true;
 		styles[0] = true;
 
-		const about = document.getElementById('about');
-		const experience = document.getElementById('experience');
-		const projects = document.getElementById('projects');
-		const skills = document.getElementById('skills');
-		const contact = document.getElementById('contact');
-
 		let body = document.body;
 		let html = document.documentElement;
 
@@ -45,6 +39,12 @@
 		};
 
 		window.onscroll = (event) => {
+			const about = document.getElementById('about');
+			const experience = document.getElementById('experience');
+			const projects = document.getElementById('projects');
+			const skills = document.getElementById('skills');
+			const contact = document.getElementById('contact');
+
 			if (about && experience && projects && skills && contact) {
 				const sections = [about, experience, projects, skills, contact];
 
@@ -73,6 +73,8 @@
 					} else if (scrollY >= documentHeight - window.innerHeight) {
 						styles[4] = true;
 						styles[3] = false;
+					} else if (styles[0] || styles[1] || styles[2] || styles[3]) {
+						styles[4] = false;
 					}
 				}
 			}
