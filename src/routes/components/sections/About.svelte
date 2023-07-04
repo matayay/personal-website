@@ -13,29 +13,31 @@
 	<div
 		class="flex h-3/4 w-full flex-col items-center justify-center gap-6 sm:flex-row sm:justify-evenly sm:gap-0"
 	>
-		<div class="flex flex-col gap-4 sm:gap-8">
+		<div class="flex flex-col-reverse gap-8 sm:flex-col sm:gap-12">
 			{#if transition}
-				<div class="flex gap-4">
-					<h2
-						in:fade={{ delay: 750, duration: 500 }}
-						class="font-mono text-lg text-neutral-300 sm:text-xl lg:text-4xl"
-					>
-						Hello There,
-					</h2>
-					<h2
-						in:fade={{ delay: 1500, duration: 500 }}
-						class="font-mono text-lg text-neutral-300 sm:text-xl lg:text-4xl"
-					>
-						I'm
-					</h2>
-				</div>
+				<div class="flex flex-col gap-2 sm:gap-6">
+					<div class="flex gap-4">
+						<h2
+							in:fade={{ delay: 750, duration: 500 }}
+							class="font-mono text-lg text-neutral-300 sm:text-xl lg:text-4xl"
+						>
+							Hello There,
+						</h2>
+						<h2
+							in:fade={{ delay: 1500, duration: 500 }}
+							class="font-mono text-lg text-neutral-300 sm:text-xl lg:text-4xl"
+						>
+							I'm
+						</h2>
+					</div>
 
-				<h1
-					in:fade={{ delay: 2500, duration: 500 }}
-					class="font-sans text-3xl text-white sm:text-4xl lg:text-7xl"
-				>
-					Matayay Karuna
-				</h1>
+					<h1
+						in:fade={{ delay: 2500, duration: 500 }}
+						class="font-sans text-3xl text-white sm:text-4xl lg:text-7xl"
+					>
+						Matayay Karuna
+					</h1>
+				</div>
 			{/if}
 		</div>
 
