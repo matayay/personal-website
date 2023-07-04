@@ -1,7 +1,7 @@
 <script lang="ts">
-	import GitHub from './GitHub.svelte';
-	import Linkedin from './Linkedin.svelte';
-	import Instagram from './Instagram.svelte';
+	import GitHub from '../Icons/GitHub.svelte';
+	import Linkedin from '../Icons/Linkedin.svelte';
+	import Instagram from '../Icons/Instagram.svelte';
 	import SideBar from './SideBar.svelte';
 	import { fade } from 'svelte/transition';
 	import { onMount } from 'svelte';
