@@ -20,16 +20,29 @@
 		const skills = document.getElementById('skills');
 		const contact = document.getElementById('contact');
 
-		const body = document.body;
-		const html = document.documentElement;
+		let body = document.body;
+		let html = document.documentElement;
 
-		const documentHeight = Math.max(
+		let documentHeight = Math.max(
 			body.scrollHeight,
 			body.offsetHeight,
 			html.clientHeight,
 			html.scrollHeight,
 			html.offsetHeight
 		);
+
+		window.onresize = (event) => {
+			body = document.body;
+			html = document.documentElement;
+
+			documentHeight = Math.max(
+				body.scrollHeight,
+				body.offsetHeight,
+				html.clientHeight,
+				html.scrollHeight,
+				html.offsetHeight
+			);
+		};
 
 		window.onscroll = (event) => {
 			if (about && experience && projects && skills && contact) {
