@@ -18,11 +18,31 @@
 	</div>
 	<div class="flex flex-col items-center justify-center gap-8">
 		<nav class="flex flex-col items-end justify-center gap-8">
-			<button class="w-40 rounded-xl bg-amber-100 py-2 text-center text-black">About</button>
-			<button class="w-40 rounded-xl bg-amber-100 py-2 text-center text-black">Experience</button>
-			<button class="w-40 rounded-xl bg-amber-100 py-2 text-center text-black">Projects</button>
-			<button class="w-40 rounded-xl bg-amber-100 py-2 text-center text-black">Skills</button>
-			<button class="w-40 rounded-xl bg-amber-100 py-2 text-center text-black">Contact</button>
+			<a
+				on:click={() => (showSidebar = false)}
+				href="#about"
+				class="w-40 rounded-xl bg-amber-100 py-2 text-center text-black">About</a
+			>
+			<a
+				on:click={() => (showSidebar = false)}
+				href="#experience"
+				class="w-40 rounded-xl bg-amber-100 py-2 text-center text-black">Experience</a
+			>
+			<a
+				on:click={() => (showSidebar = false)}
+				href="#projects"
+				class="w-40 rounded-xl bg-amber-100 py-2 text-center text-black">Projects</a
+			>
+			<a
+				on:click={() => (showSidebar = false)}
+				href="#skills"
+				class="w-40 rounded-xl bg-amber-100 py-2 text-center text-black">Skills</a
+			>
+			<a
+				on:click={() => (showSidebar = false)}
+				href="#contact"
+				class="w-40 rounded-xl bg-amber-100 py-2 text-center text-black">Contact</a
+			>
 		</nav>
 		<nav class="flex items-center justify-center gap-4">
 			<GitHub />
