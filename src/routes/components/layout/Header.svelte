@@ -89,41 +89,41 @@
 			in:fade={{ delay: 3500, duration: 1500 }}
 			class="flex h-20 items-center justify-end bg-gradient-to-b from-sky-950 px-6"
 		>
-			<div class="hidden min-w-full items-center justify-around md:flex">
+			<div class="hidden min-w-full items-center justify-around sm:flex">
 				<nav class="flex items-center justify-center lg:gap-8">
 					<a
 						href="#about"
-						class={`cursor-pointer rounded-xl px-4 py-2 text-sm text-white duration-300 ease-in-out lg:text-lg ${
+						class={`cursor-pointer rounded-xl px-2 py-1 text-sm text-white duration-300 ease-in-out md:px-4 md:py-2 md:text-lg ${
 							styles[0] ? 'bg-teal-500' : 'bg-transparent'
 						}`}>About</a
 					>
 					<a
 						href="#experience"
-						class={`cursor-pointer rounded-xl px-4 py-2 text-sm text-white duration-300 ease-in-out lg:text-lg ${
+						class={`cursor-pointer rounded-xl px-2 py-1 text-sm text-white duration-300 ease-in-out md:px-4 md:py-2 md:text-lg ${
 							styles[1] ? 'bg-teal-500' : 'bg-transparent'
 						}`}>Experience</a
 					>
 					<a
 						href="#projects"
-						class={`cursor-pointer rounded-xl px-4 py-2 text-sm text-white duration-300 ease-in-out lg:text-lg ${
+						class={`cursor-pointer rounded-xl px-2 py-1 text-sm text-white duration-300 ease-in-out md:px-4 md:py-2 md:text-lg ${
 							styles[2] ? 'bg-teal-500' : 'bg-transparent'
 						}`}>Projects</a
 					>
 					<a
 						href="#skills"
-						class={`cursor-pointer rounded-xl px-4 py-2 text-sm text-white duration-300 ease-in-out lg:text-lg ${
+						class={`cursor-pointer rounded-xl px-2 py-1 text-sm text-white duration-300 ease-in-out md:px-4 md:py-2 md:text-lg ${
 							styles[3] ? 'bg-teal-500' : 'bg-transparent'
 						}`}>Skills</a
 					>
 					<a
 						href="#contact"
-						class={`cursor-pointer rounded-xl px-4 py-2 text-sm text-white duration-300 ease-in-out lg:text-lg ${
+						class={`cursor-pointer rounded-xl px-2 py-1 text-sm text-white duration-300 ease-in-out md:px-4 md:py-2 md:text-lg ${
 							styles[4] ? 'bg-teal-500' : 'bg-transparent'
 						}`}>Contact</a
 					>
 				</nav>
 
-				<nav class="flex items-center justify-center gap-2 lg:gap-8">
+				<nav class="flex items-center justify-center gap-1 lg:gap-8">
 					<GitHub />
 					<Linkedin />
 					<Instagram />
@@ -132,7 +132,7 @@
 			</div>
 
 			<button
-				class="flex min-h-full cursor-pointer flex-col justify-center gap-2 md:hidden"
+				class="flex min-h-full cursor-pointer flex-col justify-center gap-2 sm:hidden"
 				on:click={() => (showSidebar = true)}
 			>
 				<div class="h-1 w-10 rounded-xl bg-gray-500" />
