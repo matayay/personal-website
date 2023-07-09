@@ -4,7 +4,7 @@
 	import Footer from './components/layout/Footer.svelte';
 </script>
 
-<div class="bg-black">
+<div class="min-h-screen bg-black">
 	<Header />
 	<slot />
 	<Footer />

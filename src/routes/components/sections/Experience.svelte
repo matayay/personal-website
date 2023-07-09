@@ -23,42 +23,42 @@
 		<div class="h-1 w-3/4 rounded-3xl bg-gray-400" />
 	</div>
 
-	<div
-		class="flex max-w-full flex-col items-center justify-center rounded-3xl bg-gray-900 px-4 py-10"
-	>
-		<nav class="flex w-full items-center justify-start overflow-x-scroll">
-			<button
-				class={`flex flex-col items-center justify-center gap-2 bg-white pt-2 ${
-					styles[0] ? 'bg-opacity-5' : 'bg-opacity-0'
-				}`}
-				on:click={() => handleClick(0)}
-			>
-				<h3 class={`w-max px-6 ${styles[0] ? 'text-cyan-500' : 'text-neutral-400'}`}>
-					CU LAIR Lab
-				</h3>
-				<div class={`h-0.5 w-full ${styles[0] ? 'bg-cyan-500' : 'bg-slate-600'}`} />
-			</button>
+	<div class="flex max-w-full flex-col items-center justify-center rounded-3xl bg-gray-900 p-8">
+		<div class="flex w-full items-center justify-center">
+			<nav class="mb-2 flex items-center justify-start overflow-x-scroll pb-2">
+				<button
+					class={`flex flex-col items-center justify-center gap-2 bg-white pt-2 ${
+						styles[0] ? 'bg-opacity-5' : 'bg-opacity-0'
+					}`}
+					on:click={() => handleClick(0)}
+				>
+					<h3 class={`w-max px-6 ${styles[0] ? 'text-cyan-500' : 'text-neutral-400'}`}>
+						CU LAIR Lab
+					</h3>
+					<div class={`h-0.5 w-full ${styles[0] ? 'bg-cyan-500' : 'bg-slate-600'}`} />
+				</button>
 
-			<button
-				class={`flex flex-col items-center justify-center gap-2 bg-white pt-2 ${
-					styles[1] ? 'bg-opacity-5' : 'bg-opacity-0'
-				}`}
-				on:click={() => handleClick(1)}
-			>
-				<h3 class={`w-max px-6 ${styles[1] ? 'text-cyan-500' : 'text-neutral-400'}`}>Job 2</h3>
-				<div class={`h-0.5 w-full ${styles[1] ? 'bg-cyan-500' : 'bg-slate-600'}`} />
-			</button>
+				<button
+					class={`flex flex-col items-center justify-center gap-2 bg-white pt-2 ${
+						styles[1] ? 'bg-opacity-5' : 'bg-opacity-0'
+					}`}
+					on:click={() => handleClick(1)}
+				>
+					<h3 class={`w-max px-6 ${styles[1] ? 'text-cyan-500' : 'text-neutral-400'}`}>Job 2</h3>
+					<div class={`h-0.5 w-full ${styles[1] ? 'bg-cyan-500' : 'bg-slate-600'}`} />
+				</button>
 
-			<button
-				class={`flex flex-col items-center justify-center gap-2 bg-white pt-2 ${
-					styles[2] ? 'bg-opacity-5' : 'bg-opacity-0'
-				}`}
-				on:click={() => handleClick(2)}
-			>
-				<h3 class={`w-max px-6 ${styles[2] ? 'text-cyan-500' : 'text-neutral-400'}`}>Job 1</h3>
-				<div class={`h-0.5 w-full ${styles[2] ? 'bg-cyan-500' : 'bg-slate-600'}`} />
-			</button>
-		</nav>
+				<button
+					class={`flex flex-col items-center justify-center gap-2 bg-white pt-2 ${
+						styles[2] ? 'bg-opacity-5' : 'bg-opacity-0'
+					}`}
+					on:click={() => handleClick(2)}
+				>
+					<h3 class={`w-max px-6 ${styles[2] ? 'text-cyan-500' : 'text-neutral-400'}`}>Job 1</h3>
+					<div class={`h-0.5 w-full ${styles[2] ? 'bg-cyan-500' : 'bg-slate-600'}`} />
+				</button>
+			</nav>
+		</div>
 
 		{#if index === 0}
 			<Lair />

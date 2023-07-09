@@ -10,15 +10,16 @@
 
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-	width: 15px;
+	width: 0.4rem;
+	height: 0.75rem;
 }
 
 *::-webkit-scrollbar-track {
 	background: transparent;
-	border-radius: 5px;
+	border-radius: 0.25rem;
 }
 
 *::-webkit-scrollbar-thumb {
 	background-color: gray;
-	border-radius: 14px;
+	border-radius: 1rem;
 }
