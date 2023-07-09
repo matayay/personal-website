@@ -1,10 +1,10 @@
 <script lang="ts">
 	export let showSidebar: boolean;
-	import XIcon from '../Icons/XIcon.svelte';
-	import GitHub from '../Icons/GitHub.svelte';
-	import Linkedin from '../Icons/Linkedin.svelte';
-	import Instagram from '../Icons/Instagram.svelte';
-	import Resume from '../Icons/Resume.svelte';
+	import XIcon from './XIcon.svelte';
+	import GitHub from './GitHub.svelte';
+	import Linkedin from './Linkedin.svelte';
+	import Instagram from './Instagram.svelte';
+	import Resume from './Resume.svelte';
 </script>
 
 <div

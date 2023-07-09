@@ -1,8 +1,8 @@
 <script lang="ts">
-	import GitHub from '../Icons/GitHub.svelte';
-	import Linkedin from '../Icons/Linkedin.svelte';
-	import Instagram from '../Icons/Instagram.svelte';
-	import Resume from '../Icons/Resume.svelte';
+	import GitHub from './GitHub.svelte';
+	import Linkedin from './Linkedin.svelte';
+	import Instagram from './Instagram.svelte';
+	import Resume from './Resume.svelte';
 	import SideBar from './SideBar.svelte';
 	import { onMount } from 'svelte';
 

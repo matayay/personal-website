@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Lair from '../content/LAIR.svelte';
+	import Lair from './components/LAIR.svelte';
 	import { inview } from 'svelte-inview';
 
 	let index = 0;

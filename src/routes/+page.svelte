@@ -1,9 +1,9 @@
 <script lang="ts">
-	import About from './components/sections/About.svelte';
-	import Experience from './components/sections/Experience.svelte';
-	import Projects from './components/sections/Projects.svelte';
-	import Skills from './components/sections/Skills.svelte';
-	import Contact from './components/sections/Contact.svelte';
+	import About from './about/About.svelte';
+	import Experience from './experience/Experience.svelte';
+	import Projects from './projects/Projects.svelte';
+	import Skills from './skills/Skills.svelte';
+	import Contact from './contact/Contact.svelte';
 </script>
 
 <div class="min-h-screen bg-black">
