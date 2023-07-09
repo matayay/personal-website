@@ -39,6 +39,17 @@
 		};
 
 		window.onscroll = (event) => {
+			body = document.body;
+			html = document.documentElement;
+
+			documentHeight = Math.max(
+				body.scrollHeight,
+				body.offsetHeight,
+				html.clientHeight,
+				html.scrollHeight,
+				html.offsetHeight
+			);
+
 			const about = document.getElementById('about');
 			const experience = document.getElementById('experience');
 			const projects = document.getElementById('projects');
@@ -84,7 +95,7 @@
 
 <div class="sticky left-0 top-0">
 	<header
-		class={`flex h-20 items-center justify-end bg-gradient-to-b from-sky-950 px-6 duration-[2000ms] ease-in ${
+		class={`flex h-20 items-center justify-end bg-gradient-to-b from-sky-950 px-6 delay-[3500ms] duration-[1500ms] ease-in ${
 			transition ? 'opacity-100' : 'opacity-0'
 		}`}
 	>

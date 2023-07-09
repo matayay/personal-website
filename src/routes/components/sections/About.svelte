@@ -10,24 +10,41 @@
 
 <section class="h-screen" id="about">
 	<div
-		class={`flex h-3/4 w-full flex-col items-center justify-center gap-6 duration-[2000ms] ease-in sm:flex-row sm:justify-evenly sm:gap-0 ${
-			transition ? 'opacity-100' : 'opacity-0'
-		}`}
+		class="flex h-3/4 w-full flex-col items-center justify-center gap-6 sm:flex-row sm:justify-evenly sm:gap-0"
 	>
 		<div class="flex flex-col-reverse gap-8 sm:flex-col sm:gap-12">
 			<div class="flex flex-col gap-2 sm:gap-6">
 				<div class="flex gap-4">
-					<h2 class="font-mono text-lg text-neutral-300 sm:text-xl lg:text-4xl">Hello There,</h2>
-					<h2 class="font-mono text-lg text-neutral-300 sm:text-xl lg:text-4xl">I'm</h2>
+					<h2
+						class={`font-mono text-lg text-neutral-300 delay-[750ms] duration-500 sm:text-xl lg:text-4xl ${
+							transition ? 'opacity-100' : 'opacity-0'
+						}`}
+					>
+						Hello There,
+					</h2>
+					<h2
+						class={`font-mono text-lg text-neutral-300 delay-[1500ms] duration-500 sm:text-xl lg:text-4xl ${
+							transition ? 'opacity-100' : 'opacity-0'
+						}`}
+					>
+						I'm
+					</h2>
 				</div>
 
-				<h1 class="font-sans text-3xl text-white sm:text-4xl lg:text-7xl">Matayay Karuna</h1>
+				<h1
+					class={`font-sans text-3xl text-white delay-[2500ms] duration-500 sm:text-4xl lg:text-7xl ${
+						transition ? 'opacity-100' : 'opacity-0'
+					}`}
+				>
+					Matayay Karuna
+				</h1>
 			</div>
 		</div>
 
 		<div
-			class="sm:items-centers flex w-64 flex-col items-start justify-center gap-2
-						rounded-xl bg-gradient-to-tl from-sky-950 p-4 sm:w-80 xl:w-[38rem] xl:gap-10 xl:p-8"
+			class={`flex w-64 flex-col items-start justify-center gap-2
+				rounded-xl bg-gradient-to-tl from-sky-950 p-4 delay-[3500ms] duration-[1500ms] sm:w-80 
+				xl:w-[38rem] xl:gap-10 xl:p-8 ${transition ? 'opacity-100' : 'opacity-0'}`}
 		>
 			<div class="flex w-full items-center justify-center">
 				<img src={me} alt="Matayay" class="h-auto w-16 rounded-full md:w-28 xl:w-48" />

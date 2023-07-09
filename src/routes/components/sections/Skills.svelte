@@ -5,7 +5,7 @@
 
 <div
 	class="wrapper"
-	use:inview={{ unobserveOnEnter: true, rootMargin: '-20%' }}
+	use:inview={{ unobserveOnEnter: true, rootMargin: '-25%' }}
 	on:inview_change={(event) => {
 		const { inView, entry, scrollDirection, observer, node } = event.detail;
 		isInView = inView;
@@ -20,7 +20,7 @@
 		>
 			<div class="flex w-full flex-col items-center justify-center gap-4">
 				<h2 class="text-center text-2xl text-neutral-300 sm:text-5xl">My Skills</h2>
-				<div class="h-1 w-3/4 rounded-3xl bg-gray-400" />
+				<div class="h-1 w-3/4 rounded-3xl bg-gray-800" />
 			</div>
 		</section>
 	</div>
