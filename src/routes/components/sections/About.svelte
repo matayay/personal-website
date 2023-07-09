@@ -1,12 +1,18 @@
 <script lang="ts">
-	import { fade } from 'svelte/transition';
 	import { onMount } from 'svelte';
 	import me from '../../../libs/assets/me.jpeg';
+
+	let transition = false;
+	onMount(() => {
+		transition = true;
+	});
 </script>
 
 <section class="h-screen" id="about">
 	<div
-		class="flex h-3/4 w-full flex-col items-center justify-center gap-6 sm:flex-row sm:justify-evenly sm:gap-0"
+		class={`flex h-3/4 w-full flex-col items-center justify-center gap-6 duration-[2000ms] ease-in sm:flex-row sm:justify-evenly sm:gap-0 ${
+			transition ? 'opacity-100' : 'opacity-0'
+		}`}
 	>
 		<div class="flex flex-col-reverse gap-8 sm:flex-col sm:gap-12">
 			<div class="flex flex-col gap-2 sm:gap-6">

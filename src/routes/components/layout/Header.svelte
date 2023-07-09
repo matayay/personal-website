@@ -4,14 +4,15 @@
 	import Instagram from '../Icons/Instagram.svelte';
 	import Resume from '../Icons/Resume.svelte';
 	import SideBar from './SideBar.svelte';
-	import { fade } from 'svelte/transition';
 	import { onMount } from 'svelte';
 
 	let showSidebar = false;
+	let transition = false;
 	let styles = [false, false, false, false, false];
 
 	onMount(() => {
 		styles[0] = true;
+		transition = true;
 
 		let body = document.body;
 		let html = document.documentElement;
@@ -66,10 +67,10 @@
 						!styles[2] &&
 						!styles[3] &&
 						!styles[4] &&
-						scrollY < documentHeight - window.innerHeight
+						scrollY + 100 < documentHeight - window.innerHeight
 					) {
 						styles[0] = true;
-					} else if (scrollY >= documentHeight - window.innerHeight) {
+					} else if (scrollY + 100 >= documentHeight - window.innerHeight) {
 						styles[4] = true;
 						styles[3] = false;
 					} else if (styles[0] || styles[1] || styles[2] || styles[3]) {
@@ -82,7 +83,11 @@
 </script>
 
 <div class="sticky left-0 top-0">
-	<header class="flex h-20 items-center justify-end bg-gradient-to-b from-sky-950 px-6">
+	<header
+		class={`flex h-20 items-center justify-end bg-gradient-to-b from-sky-950 px-6 duration-[2000ms] ease-in ${
+			transition ? 'opacity-100' : 'opacity-0'
+		}`}
+	>
 		<div class="hidden min-w-full items-center justify-around sm:flex">
 			<nav class="flex items-center justify-center lg:gap-8">
 				<a
