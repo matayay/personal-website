@@ -3,7 +3,7 @@
 	import { inview } from 'svelte-inview';
 
 	let index = 0;
-	let styles = [true];
+	let styles = [true, false, false];
 	let isInView: boolean;
 
 	const handleClick = (i: number) => {
@@ -44,18 +44,19 @@
 						class="mb-2 flex items-center justify-start overflow-x-scroll pb-2 sm:flex-col sm:items-start sm:justify-center"
 					>
 						<button
-							class={`flex flex-col items-center justify-center gap-2 bg-white pt-2 sm:flex-row-reverse sm:pt-0 ${
-								styles[0] ? 'bg-opacity-5' : 'bg-opacity-0'
-							}`}
+							class={`flex flex-col items-center justify-center gap-2 bg-white pt-2 duration-500
+								ease-in-out sm:flex-row-reverse sm:pt-0 ${styles[0] ? 'bg-opacity-5' : 'bg-opacity-0'}`}
 							on:click={() => handleClick(0)}
 						>
-							<h3 class={`w-max px-6 ${styles[0] ? 'text-cyan-500' : 'text-neutral-400'}`}>
+							<h3
+								class={`w-max px-6 duration-500
+								ease-in-out ${styles[0] ? 'text-cyan-500' : 'text-neutral-400'}`}
+							>
 								CU LAIR Lab
 							</h3>
 							<div
-								class={`h-0.5 w-full rounded-l-full  sm:h-12 sm:w-0.5 sm:rounded-t-full ${
-									styles[0] ? 'bg-cyan-500' : 'bg-slate-600'
-								}`}
+								class={`duration-500ease-in-out h-0.5 w-full  rounded-l-full sm:h-12 sm:w-0.5 
+								sm:rounded-t-full ${styles[0] ? 'bg-cyan-500' : 'bg-slate-600'}`}
 							/>
 						</button>
 					</nav>
