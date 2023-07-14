@@ -64,7 +64,7 @@
 
 					if (scrollY === 0) {
 						styles[0] = true;
-					} else if (scrollY >= rect.top + scrollY) {
+					} else if (scrollY + 10 >= rect.top + scrollY) {
 						styles[i] = true;
 						if (i > 0) {
 							styles[i - 1] = false;
