@@ -27,10 +27,16 @@
 				<div class="h-1 w-3/4 rounded-3xl bg-gray-800" />
 			</div>
 
-			<div class="my-10">
-				<StarWars />
-				<Dungeon />
-				<Waldo />
+			<div class="my-10 flex flex-col items-center justify-center gap-16">
+				<div>
+					<StarWars />
+				</div>
+				<div>
+					<Dungeon />
+				</div>
+				<div>
+					<Waldo />
+				</div>
 			</div>
 		</section>
 	</div>
