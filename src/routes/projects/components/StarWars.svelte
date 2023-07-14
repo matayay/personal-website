@@ -42,7 +42,7 @@
 	<div class="hidden w-11/12 items-center justify-center gap-4 sm:flex xl:w-2/3">
 		<div class="flex flex-col items-start justify-center gap-4">
 			<div class="flex items-center justify-center gap-4">
-				<h1 class="text-xl font-bold text-neutral-400">Star Wars Hub</h1>
+				<h1 class="text-2xl font-bold text-neutral-400 md:text-3xl">Star Wars Hub</h1>
 				<div class="flex items-center justify-center gap-2">
 					<GitLink link="https://github.com/matayay/StarWarsHub" />
 					<RepoLink link="https://star-wars-hub.vercel.app/" />

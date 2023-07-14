@@ -50,7 +50,7 @@
 				<div class="flex items-center justify-center gap-2">
 					<GitLink link="https://github.com/matayay/Dungeon-Escape" />
 				</div>
-				<h1 class="text-xl font-bold text-neutral-400">Star Wars Hub</h1>
+				<h1 class="text-2xl font-bold text-neutral-400 md:text-3xl">Dungeon Escape</h1>
 			</div>
 
 			<p
