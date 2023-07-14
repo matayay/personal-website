@@ -1,6 +1,6 @@
-<div class="relative w-full flex-grow" style="height: undefined">
+<div class="relative flex w-full flex-grow items-end" style="height: undefined">
 	<svg
-		class="absolute"
+		class="flex h-[25vh]"
 		preserveAspectRatio="none"
 		id="visual"
 		width="100%"

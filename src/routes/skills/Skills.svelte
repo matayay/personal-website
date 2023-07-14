@@ -19,12 +19,10 @@
 			}`}
 			id="skills"
 		>
-			<div class="flex w-full flex-col items-center justify-center gap-4">
-				<h2 class="text-center text-2xl text-neutral-300 sm:text-5xl">My Skills</h2>
+			<div class="flex w-full flex-col items-center justify-center gap-1 lg:gap-4">
+				<h2 class="text-center text-2xl text-neutral-300 xl:text-5xl">My Skills</h2>
 				<div class="h-1 w-3/4 rounded-3xl bg-gray-800" />
 			</div>
-
-			<div class="h-[75vh]" />
 
 			<Waves />
 		</section>
