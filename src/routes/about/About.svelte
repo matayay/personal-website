@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import me from '../../../libs/assets/me.jpeg';
+	import me from './assets/me.jpeg';
+	import Waves from './components/Waves.svelte';
 
 	let transition = false;
 	onMount(() => {
@@ -8,7 +9,7 @@
 	});
 </script>
 
-<section class="h-screen" id="about">
+<section class="flex h-screen flex-col" id="about">
 	<div
 		class="flex h-3/4 w-full flex-col items-center justify-center gap-6 sm:flex-row sm:justify-evenly sm:gap-0"
 	>
@@ -59,4 +60,5 @@
 			</article>
 		</div>
 	</div>
+	<Waves />
 </section>

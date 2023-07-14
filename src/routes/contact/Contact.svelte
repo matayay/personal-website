@@ -11,7 +11,7 @@
 		isInView = inView;
 	}}
 >
-	<div class="bg-gradient-to-b from-slate-950">
+	<div class="bg-black">
 		<section
 			class={`flex min-h-[50vh] flex-col items-center py-20 duration-1000 ease-in ${
 				isInView ? 'opacity-100' : 'opacity-0'

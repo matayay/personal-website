@@ -11,7 +11,7 @@
 		isInView = inView;
 	}}
 >
-	<div class="bg-gradient-to-b from-slate-950">
+	<div class="bg-gradient-to-br from-[#0a192f]">
 		<section
 			class={`flex min-h-screen flex-col items-center pt-20 duration-1000 ease-in ${
 				isInView ? 'opacity-100' : 'opacity-0'

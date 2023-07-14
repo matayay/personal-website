@@ -23,7 +23,7 @@
 		isInView = inView;
 	}}
 >
-	<div class="bg-gradient-to-t from-slate-950">
+	<div class="bg-gradient-to-tr from-[#0a192f]">
 		<section
 			class={`flex flex-col items-center pt-20 duration-1000 ease-in ${
 				isInView ? 'opacity-100' : 'opacity-0'
@@ -36,7 +36,7 @@
 			</div>
 
 			<div
-				class="my-10 flex max-w-full flex-col items-start justify-center gap-8 rounded-3xl bg-gray-900 p-8
+				class="my-10 flex max-w-full flex-col items-start justify-center gap-8 rounded-3xl bg-gray-800 p-8
 					sm:w-[50rem] sm:flex-row sm:justify-start xl:my-20 xl:py-20"
 			>
 				<div class="flex w-full items-center justify-center sm:w-auto">
