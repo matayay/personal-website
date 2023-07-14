@@ -103,31 +103,31 @@
 			<nav class="flex items-center justify-center lg:gap-8">
 				<a
 					href="#about"
-					class={`cursor-pointer rounded-xl px-2 py-1 text-sm text-white duration-300 ease-in-out md:px-4 md:py-2 md:text-lg ${
+					class={`cursor-pointer rounded-xl px-2 py-1 text-sm text-white duration-300 ease-in-out md:px-4 md:py-2 lg:text-lg ${
 						styles[0] ? 'bg-teal-500' : 'bg-transparent'
 					}`}>About</a
 				>
 				<a
 					href="#experience"
-					class={`cursor-pointer rounded-xl px-2 py-1 text-sm text-white duration-300 ease-in-out md:px-4 md:py-2 md:text-lg ${
+					class={`cursor-pointer rounded-xl px-2 py-1 text-sm text-white duration-300 ease-in-out md:px-4 md:py-2 lg:text-lg ${
 						styles[1] ? 'bg-teal-500' : 'bg-transparent'
 					}`}>Experience</a
 				>
 				<a
 					href="#projects"
-					class={`cursor-pointer rounded-xl px-2 py-1 text-sm text-white duration-300 ease-in-out md:px-4 md:py-2 md:text-lg ${
+					class={`cursor-pointer rounded-xl px-2 py-1 text-sm text-white duration-300 ease-in-out md:px-4 md:py-2 lg:text-lg ${
 						styles[2] ? 'bg-teal-500' : 'bg-transparent'
 					}`}>Projects</a
 				>
 				<a
 					href="#skills"
-					class={`cursor-pointer rounded-xl px-2 py-1 text-sm text-white duration-300 ease-in-out md:px-4 md:py-2 md:text-lg ${
+					class={`cursor-pointer rounded-xl px-2 py-1 text-sm text-white duration-300 ease-in-out md:px-4 md:py-2 lg:text-lg ${
 						styles[3] ? 'bg-teal-500' : 'bg-transparent'
 					}`}>Skills</a
 				>
 				<a
 					href="#contact"
-					class={`cursor-pointer rounded-xl px-2 py-1 text-sm text-white duration-300 ease-in-out md:px-4 md:py-2 md:text-lg ${
+					class={`cursor-pointer rounded-xl px-2 py-1 text-sm text-white duration-300 ease-in-out md:px-4 md:py-2 lg:text-lg ${
 						styles[4] ? 'bg-teal-500' : 'bg-transparent'
 					}`}>Contact</a
 				>

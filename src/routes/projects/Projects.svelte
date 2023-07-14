@@ -1,5 +1,9 @@
 <script lang="ts">
 	import { inview } from 'svelte-inview';
+	import StarWars from './components/StarWars.svelte';
+	import Dungeon from './components/Dungeon.svelte';
+	import Waldo from './components/Waldo.svelte';
+
 	let isInView: boolean;
 </script>
 
@@ -21,6 +25,12 @@
 			<div class="flex w-full flex-col items-center justify-center gap-4">
 				<h2 class="text-center text-2xl text-neutral-300 sm:text-5xl">Some Things I've Built</h2>
 				<div class="h-1 w-3/4 rounded-3xl bg-gray-800" />
+			</div>
+
+			<div class="my-10">
+				<StarWars />
+				<Dungeon />
+				<Waldo />
 			</div>
 		</section>
 	</div>
