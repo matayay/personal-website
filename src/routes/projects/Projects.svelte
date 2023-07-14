@@ -28,15 +28,9 @@
 			</div>
 
 			<div class="my-10 flex flex-col items-center justify-center gap-20 xl:my-20">
-				<div>
-					<StarWars />
-				</div>
-				<div>
-					<Dungeon />
-				</div>
-				<div>
-					<Waldo />
-				</div>
+				<StarWars />
+				<Dungeon />
+				<Waldo />
 			</div>
 		</section>
 	</div>
