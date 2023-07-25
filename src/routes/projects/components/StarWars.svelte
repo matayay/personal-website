@@ -35,7 +35,7 @@
 
 		<p class="px-6 text-center font-bold text-neutral-500">
 			Star Wars forum that allows users to create, edit, and delete posts. Can also like and comment
-			on posts. Post content includes titel, body, and an optional image url.
+			on posts. Post content includes title, body, and an optional image url.
 		</p>
 	</div>
 
