@@ -136,7 +136,6 @@
 			<nav class="flex items-center justify-center gap-1 lg:gap-8">
 				<GitHub />
 				<Linkedin />
-				<Instagram />
 				<Resume />
 			</nav>
 		</div>

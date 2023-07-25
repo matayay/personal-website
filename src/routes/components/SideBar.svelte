@@ -50,7 +50,6 @@
 				<div class="flex items-center justify-center gap-4">
 					<GitHub />
 					<Linkedin />
-					<Instagram />
 				</div>
 				<Resume />
 			</nav>

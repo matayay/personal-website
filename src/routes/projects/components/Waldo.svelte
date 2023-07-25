@@ -4,7 +4,7 @@
 	import RepoLink from './RepoLink.svelte';
 </script>
 
-<div class="flex w-[99vw] items-center justify-center">
+<div class="flex w-full items-center justify-center">
 	<div class="flex flex-col items-center justify-center gap-6 sm:hidden">
 		<div class="flex flex-col items-center justify-center gap-1">
 			<div class="flex items-center justify-center gap-4">
@@ -42,7 +42,7 @@
 
 	<!-- ################ -->
 
-	<div class="hidden w-11/12 items-center justify-center gap-4 sm:flex xl:w-2/3">
+	<div class="hidden w-11/12 items-center justify-center gap-4 sm:flex xl:w-[70rem]">
 		<div class="flex flex-col items-start justify-center gap-4">
 			<div class="flex items-center justify-center gap-4">
 				<h1 class="text-2xl font-bold text-neutral-400 md:text-3xl">Where's Waldo</h1>
