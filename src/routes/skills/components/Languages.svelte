@@ -4,6 +4,7 @@
 	import Html from './languages/html.svelte';
 	import Javascript from './languages/javascript.svelte';
 	import Python from './languages/python.svelte';
+	import Typescript from './languages/typescript.svelte';
 </script>
 
 <div class="flex flex-col items-center justify-center gap-2 sm:gap-8">
@@ -14,5 +15,6 @@
 		<Html />
 		<Javascript />
 		<Python />
+		<Typescript />
 	</div>
 </div>
