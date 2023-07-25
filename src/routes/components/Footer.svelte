@@ -8,6 +8,6 @@
 >
 	<h3 class="text-gray-500">© {time.getFullYear()} Matayay Karuna</h3>
 	<button on:click={() => window.open('https://github.com/matayay/personal-website')}>
-		<img src={branch} alt="Github branch" class="h-8 w-8" />
+		<img src={branch} alt="Github branch" class="h-8 w-8 duration-300 hover:brightness-200" />
 	</button>
 </footer>

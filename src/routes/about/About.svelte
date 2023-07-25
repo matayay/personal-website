@@ -48,7 +48,7 @@
 				xl:w-[38rem] xl:gap-10 xl:p-8 ${transition ? 'opacity-100' : 'opacity-0'}`}
 		>
 			<div class="flex w-full items-center justify-center">
-				<img src={me} alt="Matayay" class="h-auto w-16 rounded-full md:w-28 xl:w-48" />
+				<img src={me} alt="Matayay" class="h-auto w-16 rounded-full md:w-28 xl:w-44" />
 			</div>
 			<article class="flex flex-col gap-1 lg:gap-4">
 				<h3 class="text-lg text-neutral-300 lg:text-2xl">A little about me</h3>
