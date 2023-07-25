@@ -1,5 +1,5 @@
 <script lang="ts">
-	import waldo from '../assets/waldo.gif';
+	import waldo from '../assets/waldo.jpg';
 	import GitLink from './GitLink.svelte';
 	import RepoLink from './RepoLink.svelte';
 </script>

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import starWarsGif from '../assets/starwars.gif';
+	import starWarsGif from '../assets/starwars.jpg';
 	import GitLink from './GitLink.svelte';
 	import RepoLink from './RepoLink.svelte';
 </script>

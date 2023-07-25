@@ -1,5 +1,5 @@
 <script lang="ts">
-	import dungeon from '../assets/dungeon.gif';
+	import dungeon from '../assets/dungeon.jpg';
 	import GitLink from './GitLink.svelte';
 	import RepoLink from './RepoLink.svelte';
 </script>
