@@ -5,6 +5,7 @@
 	import Javascript from './languages/javascript.svelte';
 	import Python from './languages/python.svelte';
 	import Typescript from './languages/typescript.svelte';
+	import SQL from './languages/sql.png';
 </script>
 
 <div class="flex flex-col items-center justify-center gap-2 sm:gap-8">
@@ -15,6 +16,7 @@
 		<Html />
 		<Javascript />
 		<Python />
+		<img src={SQL} alt="SQL logo" class="h-12 w-12" />
 		<Typescript />
 	</div>
 </div>

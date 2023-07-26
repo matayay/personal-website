@@ -4,6 +4,7 @@
 	import Git from './technologies/git.svelte';
 	import Lambda from './technologies/lambda.svelte';
 	import Node from './technologies/node.svelte';
+	import Postgres from './technologies/postgres.svelte';
 	import supabase from './technologies/supabase.png';
 	import websockets from './technologies/websockets.png';
 </script>
@@ -16,6 +17,7 @@
 		<Git />
 		<Lambda />
 		<Node />
+		<Postgres />
 		<img src={supabase} alt="Supabase logo" class="h-12 w-12" />
 		<img src={websockets} alt="Websocket protocol logo" class="h-12 w-12" />
 	</div>
