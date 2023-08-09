@@ -3,7 +3,7 @@
 	import { inview } from 'svelte-inview';
 
 	let index = 0;
-	let styles = [true, false, false];
+	let styles = [true];
 	let isInView: boolean;
 
 	const handleClick = (i: number) => {
@@ -64,8 +64,6 @@
 
 				{#if index === 0}
 					<Lair />
-				{:else}
-					<h1>Bruh</h1>
 				{/if}
 			</div>
 		</section>

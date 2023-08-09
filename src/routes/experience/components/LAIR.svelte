@@ -21,11 +21,15 @@
 			Made use of Next.js and Tailwind.css to construct frontend
 		</li>
 		<li class="mb-2 text-neutral-400">
-			Leveraged AWS services including API Gateway, Lambda, and Dynamodb to construct backend
+			Leveraged AWS services including API Gateway, Lambda, and Dynamodb to create a websockets API
+			which allows bidirectional communication between website and DAQ sites
 		</li>
 		<li class="text-neutral-400">
-			Developed an API based on WebSockets to allow bidirectional communication between website and
-			DAQ sites
+			Setup and maintained a PostgreSQL database consisting of multiple tables that can be joined
+		</li>
+		<li class="text-neutral-400">
+			Developed REST API using Express.js to link up website, database, and a Network Attached
+			Storage server (NAS)
 		</li>
 	</ul>
 </article>
