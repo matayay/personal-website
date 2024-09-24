@@ -2,6 +2,7 @@
 	import { inview } from 'svelte-inview';
 	import StarWars from './components/StarWars.svelte';
 	import Dungeon from './components/Dungeon.svelte';
+	import Checkers from './components/Checkers.svelte';
 	import Waldo from './components/Waldo.svelte';
 
 	let isInView: boolean;
@@ -30,6 +31,7 @@
 			<div class="my-10 flex flex-col items-center justify-center gap-20 xl:my-20">
 				<StarWars />
 				<Dungeon />
+				<Checkers />
 				<Waldo />
 			</div>
 		</section>

@@ -7,6 +7,7 @@
 	import Postgres from './technologies/postgres.svelte';
 	import supabase from './technologies/supabase.png';
 	import websockets from './technologies/websockets.png';
+	import Docker from './technologies/docker.svelte';
 </script>
 
 <div class="flex flex-col items-center justify-center gap-2 sm:gap-8">
@@ -14,6 +15,7 @@
 	<div class="flex flex-wrap items-center justify-center gap-2 px-4 sm:gap-12">
 		<img src={dynamo} alt="Dynamodb logo" class="h-12 w-12" />
 		<Firebase />
+		<Docker />
 		<Git />
 		<Lambda />
 		<Node />
