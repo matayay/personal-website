@@ -41,7 +41,7 @@
 			>
 				<div class="flex w-full items-center justify-center sm:w-auto">
 					<nav
-						class="mb-2 flex items-center justify-start overflow-x-scroll pb-2 sm:flex-col sm:items-start sm:justify-center"
+						class="mb-2 flex items-center justify-start pb-2 sm:flex-col sm:items-start sm:justify-center"
 					>
 						<button
 							class={`flex flex-col items-center justify-center gap-2 bg-white pt-2 duration-500
