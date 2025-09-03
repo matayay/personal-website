@@ -3,6 +3,7 @@
 	import Css from './languages/css.svelte';
 	import Html from './languages/html.svelte';
 	import Javascript from './languages/javascript.svelte';
+	import Java from './languages/java.svelte';
 	import Python from './languages/python.svelte';
 	import Typescript from './languages/typescript.svelte';
 	import SQL from './languages/sql.png';
@@ -15,6 +16,7 @@
 		<Css />
 		<Html />
 		<Javascript />
+		<Java />
 		<Python />
 		<img src={SQL} alt="SQL logo" class="h-12 w-12" />
 		<Typescript />
