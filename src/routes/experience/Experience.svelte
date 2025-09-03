@@ -44,8 +44,8 @@
 						class="mb-2 flex items-center justify-start pb-2 sm:flex-col sm:items-start sm:justify-center"
 					>
 						<button
-							class={`flex flex-col items-center justify-center gap-2 bg-white pt-2 duration-500
-								ease-in-out sm:flex-row-reverse sm:pt-0 ${styles[0] ? 'bg-opacity-5' : 'bg-opacity-0'}`}
+							class={`flex cursor-pointer flex-col items-center justify-center gap-2 pt-2 duration-500
+								ease-in-out sm:flex-row-reverse sm:pt-0 ${styles[0] ? 'bg-white/5' : 'bg-transparent'}`}
 							on:click={() => handleClick(0)}
 						>
 							<h3

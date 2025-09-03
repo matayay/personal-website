@@ -93,7 +93,7 @@
 	});
 </script>
 
-<div class="sticky left-0 top-0 z-50">
+<div class="sticky top-0 left-0 z-50">
 	<header
 		class={`flex h-20 items-center justify-end bg-gradient-to-b from-sky-950 px-6 delay-[3500ms] duration-[1500ms] ease-in ${
 			transition ? 'opacity-100' : 'opacity-0'

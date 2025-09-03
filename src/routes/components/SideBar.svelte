@@ -8,11 +8,11 @@
 </script>
 
 <div
-	class={`fixed right-0 top-0 h-screen w-3/4 bg-black duration-500 ease-in-out ${
+	class={`fixed top-0 right-0 h-screen w-3/4 bg-black duration-500 ease-in-out ${
 		showSidebar ? 'translate-x-0' : 'translate-x-full'
 	}`}
 >
-	<div class="flex h-full w-full flex-col gap-4 bg-gradient-radial from-sky-950">
+	<div class="flex h-full w-full flex-col gap-4 bg-radial from-sky-950">
 		<div class="flex w-full items-center justify-end p-4">
 			<button on:click={() => (showSidebar = false)}>
 				<XIcon />

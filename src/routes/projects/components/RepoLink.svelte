@@ -2,7 +2,7 @@
 	export let link: string;
 </script>
 
-<button on:click={() => window.open(link)}>
+<button on:click={() => window.open(link)} class="cursor-pointer">
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		x="0px"

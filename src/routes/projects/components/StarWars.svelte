@@ -23,7 +23,7 @@
 		</div>
 
 		<button
-			class="flex items-center justify-center"
+			class="flex cursor-pointer items-center justify-center"
 			on:click={() => window.open('https://star-wars-hub.vercel.app/')}
 		>
 			<img
@@ -67,7 +67,7 @@
 		</div>
 
 		<button
-			class="flex items-center justify-center"
+			class="flex cursor-pointer items-center justify-center"
 			on:click={() => window.open('https://star-wars-hub.vercel.app/')}
 		>
 			<img

@@ -23,7 +23,7 @@
 		</div>
 
 		<button
-			class="flex items-center justify-center"
+			class="flex cursor-pointer items-center justify-center"
 			on:click={() => window.open('https://waldo-six.vercel.app/')}
 		>
 			<img
@@ -69,7 +69,7 @@
 		</div>
 
 		<button
-			class="flex items-center justify-center"
+			class="flex cursor-pointer items-center justify-center"
 			on:click={() => window.open('https://waldo-six.vercel.app/')}
 		>
 			<img
