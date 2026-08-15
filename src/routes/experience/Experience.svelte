@@ -1,5 +1,7 @@
 <script lang="ts">
+	import LAIR from './components/LAIR.svelte';
 	import Lair from './components/LAIR.svelte';
+	import Zinnia from './components/Zinnia.svelte';
 	import { inview } from 'svelte-inview';
 
 	let index = 0;
@@ -41,7 +43,7 @@
 			>
 				<div class="flex w-full items-center justify-center sm:w-auto">
 					<nav
-						class="mb-2 flex items-center justify-start pb-2 sm:flex-col sm:items-start sm:justify-center"
+						class="mb-2 flex items-center justify-start overflow-x-scroll pb-2 sm:flex-col sm:items-start sm:justify-center"
 					>
 						<button
 							class={`flex cursor-pointer flex-col items-center justify-center gap-2 pt-2 duration-500
@@ -52,18 +54,37 @@
 								class={`w-max px-6 duration-500
 								ease-in-out ${styles[0] ? 'text-cyan-500' : 'text-neutral-400'}`}
 							>
-								CU LAIR Lab
+								Zinnia Tech Solutions
 							</h3>
 							<div
 								class={`duration-500ease-in-out h-0.5 w-full  rounded-l-full sm:h-12 sm:w-0.5 
 								sm:rounded-t-full ${styles[0] ? 'bg-cyan-500' : 'bg-slate-600'}`}
 							/>
 						</button>
+						<button
+							class={`flex cursor-pointer flex-col items-center justify-center gap-2 pt-2 duration-500
+								ease-in-out sm:flex-row-reverse sm:pt-0 ${styles[1] ? 'bg-white/5' : 'bg-transparent'}`}
+							on:click={() => handleClick(1)}
+						>
+							<h3
+								class={`w-max px-6 duration-500
+								ease-in-out ${styles[1] ? 'text-cyan-500' : 'text-neutral-400'}`}
+							>
+								Colorado Center for Astrodynamics Research
+							</h3>
+							<div
+								class={`duration-500ease-in-out h-0.5 w-full  rounded-l-full sm:h-12 sm:w-0.5 
+								sm:rounded-t-full ${styles[1] ? 'bg-cyan-500' : 'bg-slate-600'}`}
+							/>
+						</button>
 					</nav>
 				</div>
 
 				{#if index === 0}
-					<Lair />
+					<Zinnia />
+				{/if}
+				{#if index === 1}
+					<LAIR />
 				{/if}
 			</div>
 		</section>

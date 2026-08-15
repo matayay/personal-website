@@ -1,35 +1,41 @@
-<article class="flex flex-col items-start justify-center gap-4">
+<article class="flex max-h-96 flex-col items-start justify-center gap-4">
 	<div>
 		<div class="flex flex-wrap items-center justify-start gap-2 gap-y-0">
-			<h1 class="text-lg text-white">Student Software Engineer</h1>
+			<h1 class="text-lg text-white">Undergraduate Research Fellow</h1>
 			<h1 class="text-lg text-cyan-500">@</h1>
 			<button
 				on:click={() => window.open('https://culair.weebly.com/')}
-				class="cursor-pointer text-lg text-cyan-500 hover:underline"
+				class="cursor-pointer text-left text-lg text-cyan-500 hover:underline"
 			>
-				CU LAIR Lab
+				Colorado Center for Astrodynamics Research
 			</button>
 		</div>
-		<h3 class="text-neutral-500">June 2023 - Present</h3>
+		<h3 class="text-neutral-500">June 2023 - December 2025</h3>
 	</div>
-	<ul class="mx-4 list-outside list-disc">
+	<ul class="mx-4 list-outside list-disc overflow-auto">
 		<li class="mb-2 text-neutral-400">
-			Fullstack Engineer responsible for developing a website to interface, monitor, and retrieve
-			data from DAQ sites measuring VLF radio waves
+			> Developed a full-stack web application to monitor and retrieve data from data acquisition
+			(DAQ) sites measuring VLF radio waves
 		</li>
 		<li class="mb-2 text-neutral-400">
-			Made use of Next.js and Tailwind.css to construct frontend
+			> Built a WebSocket API using AWS API Gateway, Lambda, and DynamoDB, enabling bidirectional
+			communication between the website and 11 DAQ sites in under one second
 		</li>
 		<li class="mb-2 text-neutral-400">
-			Leveraged AWS services including API Gateway, Lambda, and Dynamodb to create a websockets API
-			which allows bidirectional communication between website and DAQ sites
+			> Built a relational PostgreSQL database with multiple related tables supporting the website
+			backend
 		</li>
 		<li class="text-neutral-400">
-			Setup and maintained a PostgreSQL database consisting of multiple tables that can be joined
+			> Built a responsive monitoring and data-retrieval frontend using Next.js and Tailwind CSS
 		</li>
 		<li class="text-neutral-400">
-			Developed REST API using Express.js to link up website, database, and a Network Attached
-			Storage server (NAS)
+			> Developed an Node.js/Express.js REST API connecting the website, PostgreSQL database, and
+			network-attached storage server (NAS), enabling users to view and download NAS files through
+			the website
+		</li>
+		<li class="text-neutral-400">
+			> Integrated the Python DAQ software with the Express.js REST API to auto upload generated
+			files to NAS
 		</li>
 	</ul>
 </article>

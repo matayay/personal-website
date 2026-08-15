@@ -28,9 +28,6 @@
 					<h3 class="text-center text-xl font-bold text-slate-300 sm:text-3xl">
 						matayaykaruna@gmail.com
 					</h3>
-					<h3 class="text-center text-xl font-bold text-slate-300 sm:text-3xl">
-						(719) - 480 - 1645
-					</h3>
 				</div>
 			</div>
 		</section>
