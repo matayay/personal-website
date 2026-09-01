@@ -53,9 +53,9 @@
 			<article class="flex flex-col gap-1 lg:gap-4">
 				<h3 class="text-lg text-neutral-300 lg:text-2xl">A little about me</h3>
 				<p class="text-sm text-gray-400 sm:text-xs xl:text-xl">
-					I'm an aspiring developer and current CS student at CU Boulder. I have a passion for
-					learning and am always looking to discover something new. Some of my hobbies outside tech
-					are skiing, video games, and long walks in nature.
+					I'm an aspiring Software Engineer and recent CS graduate from CU Boulder. I have a passion
+					for learning and am always looking to discover something new. Some of my hobbies outside
+					tech are skiing, video games, and long walks in nature.
 				</p>
 			</article>
 		</div>
